@@ -1,3 +1,12 @@
+node 14.19.3
+angular 11.2.19
+
+enlaces
+	https://bootswatch.com/
+	https://valor-software.com/ngx-bootstrap/#/
+	
+
+
 creación de carpeta...
 selección de carpeta...
 creación archivo de solución..
@@ -79,5 +88,20 @@ ________________________________________________________________________________
 Persistencia del login
 
 
+
+---------------------------------------------------------------------------------
+Agregamos Toastr 	
+	npm install ngx-toastr@13.2.1
+
+Proteger enlaces de usuarios no autenticados, creamos carpeta _guards
+	ng g guard auth --skip-tests
+		(*) CanActivate
+
+
+añadiendo bootswatch
+	npm install bootswatch
+
+creación de módulo para limpieza de código
+	ng g m shared --flat
 
 
